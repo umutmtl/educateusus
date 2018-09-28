@@ -31,7 +31,8 @@ class YourComponent extends Component {
   render() {
     return (
       <div>
-          <p>{'Your component is here'}</p>
+          {/* tıplı html'deki bootstrap kullanımı gibi tek fark "class" yerine "className" kullanıyoruz. */}
+          <p className='lead'>{'Your component is here'}</p>
           {`Data from firebase : ${this.state.name}`}
       </div>
     )
