@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import fire from '../config/fire'
 
-class YourComponent extends Component {
+class DiscoverComponent extends Component {
   state = {
     name: ""
   }
@@ -32,11 +32,11 @@ class YourComponent extends Component {
     return (
       <div>
           {/* tıplı html'deki bootstrap kullanımı gibi tek fark "class" yerine "className" kullanıyoruz. */}
-          <p className='lead'>{'Your component is here'}</p>
+          <p className='lead'>{DiscoverComponent}</p>
           {`Data from firebase : ${this.state.name}`}
       </div>
     )
   }
 }
 
-export default YourComponent
+export default DiscoverComponent

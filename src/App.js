@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './App.css'
 import Button from '@material-ui/core/Button'
-import YourComponent from './Components/YourComponent'
+import DiscoverComponent from './Components/DiscoverComponent'
 import { BrowserRouter, Route, Switch} from 'react-router-dom'
 
 class App extends Component {
@@ -10,10 +10,10 @@ class App extends Component {
       <BrowserRouter>
         <div className="App">
           <Button variant="outlined">
-            Sample Button from App Component
+            Not Sample Button from App Component
           </Button>
           <Switch>
-            <Route path='/yourcomponent' component={YourComponent}/>
+            <Route path='/DiscoverComponent' component={DiscoverComponent}/>
           </Switch>
         </div>
       </BrowserRouter>
